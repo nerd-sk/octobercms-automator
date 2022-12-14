@@ -1,0 +1,253 @@
+banner_section:
+    name: Banner  
+    description: Banner
+    icon: icon-desktop
+    fields:
+        heading:
+            label: Heading
+            type: text
+        subHeading:
+            label: SubHeading
+            type: text
+        link:
+            label: Link
+            type: text    
+        image:
+            label: Image 
+            type: mediafinder
+small_banner_section:
+    name: Small Banner section 
+    description: Small Banner
+    icon: icon-desktop
+    fields:
+        banners:
+            label: Small banners
+            prompt: 'Add small banner'
+            style: default
+            span: full
+            type: repeater
+            form:
+                fields:
+                    first_text:
+                        label: First text
+                        type: text
+                    second_text:
+                        label: Second text
+                        type: text
+                    first_image:
+                        label: First image
+                        type: mediafinder
+                        mode: image
+                    second_image:
+                        label: Second image
+                        type: mediafinder
+                        mode: image
+                    link:
+                        label: Link
+                        type: text
+slider_section:
+    name: Slider  
+    description: Slider
+    icon: icon-desktop
+    fields:
+        slides:
+            label: Slider
+            prompt: 'Pridať slide'
+            style: default
+            span: full
+            type: repeater
+            form:
+                fields:
+                    heading:
+                        label: Nadpis
+                        type: text
+                    text:
+                        label: Text 
+                        type: richeditor
+                    image:
+                        label: Obrázok 
+                        type: mediafinder
+                    link:
+                        label: Link
+                        type: text
+                    button:
+                        label: Tlačítko text
+                        type: text
+columns_section:
+    name: Columns section
+    description: Columns section
+    icon: icon-columns
+    fields:
+        heading:
+            label: Heading
+            span: left
+            type: text
+        text:
+            label: Content
+            span: right
+            type: richeditor
+        size:
+            label: 'Columns width'
+            span: left
+            type: text
+        columns:
+            label: Column 
+            prompt: 'Add column'
+            style: default
+            span: full
+            type: repeater
+            form:
+                fields:
+                    name:
+                        label: Heading
+                        span: left
+                        type: text
+                    description:
+                        label: Content
+                        span: right
+                        type: richeditor
+                    link:
+                        label: Link
+                        span: left
+                        type: text
+                    image:
+                        label: Image
+                        span: auto
+                        mode: image
+                        type: mediafinder                          
+box_section:
+    name: Box section
+    description: Columns section
+    icon: icon-columns
+    fields:
+        heading:
+            label: Heading
+            span: left
+            type: text
+        text:
+            label: Content
+            span: right
+            type: richeditor
+        size:
+            label: 'Columns width'
+            span: left
+            type: text
+        columns:
+            label: Column 
+            prompt: 'Add column'
+            style: default
+            span: full
+            type: repeater
+            form:
+                fields:
+                    name:
+                        label: Heading
+                        span: left
+                        type: text
+                    description:
+                        label: Content
+                        span: right
+                        type: richeditor
+people_section:
+    name: People section
+    description: People
+    icon: icon-users
+    fields:
+        heading:
+            label: Heading
+            span: left
+            type: text
+        text:
+            label: Content
+            span: right
+            type: richeditor
+        size:
+            label: 'Columns width'
+            span: left
+            type: text
+        persons:
+            label: People 
+            prompt: 'Add person'
+            style: default
+            span: full
+            type: repeater
+            form:
+                fields:
+                    name:
+                        label: Heading
+                        span: left
+                        type: text
+                    description:
+                        label: Content
+                        span: right
+                        type: richeditor    
+                    photo:
+                        label: Photo
+                        span: left
+                        type: mediafinder    
+                        mode: image
+                    
+
+news_section:
+    name: News 
+    description: News
+    icon: icon-newspaper-o
+    fields:
+        title:
+            label: Nadpis
+            type: text
+            default: Novinky               
+events_section:
+    name: Events 
+    description: Events
+    icon: icon-newspaper-o
+    fields:
+        title:
+            label: Heading
+            type: text
+            default: Events                           
+heading_section:
+    name: Heading and text 
+    description: Heading and text
+    icon: icon-header
+    fields:
+        heading:
+            label: Nadpis
+            type: text
+        text:
+            label: Text 
+            type: richeditor
+image_section:
+    name: Image section 
+    description: Image section
+    icon: icon-file-image-o
+    fields:
+        heading:
+            label: Nadpis
+            type: text
+            span: left
+        text:
+            span: right
+            label: Details
+            type: richeditor
+        image:
+            label: Obrázok
+            type: mediafinder
+            span: left
+        isImageRight:
+            label: Obrázok vpravo
+            type: checkbox
+            span: left
+        isDarkSection:
+            label: Tmavá sekcia
+            type: checkbox
+            span: left
+        link:
+            label: link
+            type: text
+            span: left    
+        button:
+            label: názov linku
+            type: text
+            span: left         
+                                                  

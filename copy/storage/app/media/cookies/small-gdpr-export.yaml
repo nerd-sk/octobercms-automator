@@ -1,0 +1,100 @@
+title: Nastavenia
+description: '<p>Tieto súbory zbierajú informácie o tom, ako sa používala webová stránka, napríklad ktoré stránky najčastejšie navštevujete a či sa vám zobrazili chybové hlásenia. Nezbierajú informácie, na základe ktorých by bolo možné zistiť vašu totožnosť. Všetky informácie sú anonymné. Používajú sa na zlepšenie funkčnosti webových stránok.</p>'
+slug: analyticke-subory-cookies
+required: '0'
+default_enabled: '0'
+scripts:
+    -
+        scripts_title: 'Google analytics'
+        scripts_file: ''
+        scripts_run_production: '0'
+        scripts_code: "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-XXXXXXX');\r\n</script>"
+        scripts_disable: '0'
+        scripts_run_pages: '0'
+        scripts_run_pages_list: null
+scripts_title: 'Google analytics'
+scripts_file: ''
+scripts_run_production: '0'
+scripts_code: "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-XXXXXXX');\r\n</script>"
+scripts_disable: '0'
+scripts_run_pages: '0'
+scripts_run_pages_list: null
+cookies:
+    -
+        title: 'Nevyhnutne nutné súbory cookies'
+        description: '<p>Sú to základné súbory cookies, ktoré umožňujú pohybovať sa po webovej stránke a používať jej funkcie. Tieto súbory cookies neukladajú žiadne informácie o vás, ktoré by sa dali použiť na marketing alebo na zapamätanie si, čo ste si na internete pozerali.</p>'
+        slug: nevyhnutne-nutne-subory-cookies
+        required: '1'
+        default_enabled: '0'
+        scripts:
+            -
+                scripts_title: ''
+                scripts_file: ''
+                scripts_run_production: '0'
+                scripts_code: ''
+                scripts_disable: '0'
+                scripts_run_pages: '0'
+                scripts_run_pages_list: null
+    -
+        title: 'Analytické súbory cookies'
+        description: '<p>Tieto súbory zbierajú informácie o tom, ako sa používala webová stránka, napríklad ktoré stránky najčastejšie navštevujete a či sa vám zobrazili chybové hlásenia. Nezbierajú informácie, na základe ktorých by bolo možné zistiť vašu totožnosť. Všetky informácie sú anonymné. Používajú sa na zlepšenie funkčnosti webových stránok.</p>'
+        slug: analyticke-subory-cookies
+        required: '0'
+        default_enabled: '0'
+        scripts:
+            -
+                scripts_title: 'Google analytics'
+                scripts_file: ''
+                scripts_run_production: '0'
+                scripts_code: "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-XXXXXXX');\r\n</script>"
+                scripts_disable: '0'
+                scripts_run_pages: '0'
+                scripts_run_pages_list: null
+cookies_bar_title: 'Cookies'
+cookies_bar_content: '<p>Pre správnu funkčnosť stránky, používame iba nevyhnutné cookies súbory.<br><br>Taktiež používame dodatočné súbory cookies ( zlepšujú napr. funkčnosť stránky, YouTube videí, zdielanie postov...), akceptovaním súhlasíte s ich používaním.</p><p><a href="/cookies" rel="noopener noreferrer" target="_blank">Viac informácií.</a></p>'
+cookies_bar_css_class: ''
+cookies_bar_add_styles: '1'
+cookies_bar_disable_page_reload: '0'
+cookies_bar_buttons:
+    -
+        title: 'Povoliť všetky'
+        url: '#'
+        accept_all_cookies_btn: '1'
+        url_external: '0'
+        disable_all_cookies_btn: '0'
+        css_class: 'button is-primary '
+        html_attributes: ''
+        show_modal: '0'
+    -
+        title: Odmietnuť
+        url: ''
+        accept_all_cookies_btn: '0'
+        url_external: '0'
+        disable_all_cookies_btn: '1'
+        css_class: 'button is-primary'
+        html_attributes: ''
+        show_modal: '0'
+    -
+        title: Nastavenia
+        url: '#'
+        accept_all_cookies_btn: '0'
+        url_external: '0'
+        disable_all_cookies_btn: '0'
+        css_class: 'js-modal-open button is-primary'
+        html_attributes: 'data-modal="#sg-settings-modal-cookiesBar"'
+        show_modal: '1'
+cookies_manage_title: 'Nastavenie cookies'
+cookies_manage_css_class: ''
+cookies_manage_content: ''
+cookies_manage_disable_page_reload: '0'
+set_cookies_lifetime_days: 365
+ui_style: b3
+set_cookies_with_locale: '1'
+import_preset_media: ''
+url: '#'
+accept_all_cookies_btn: '0'
+url_external: '0'
+disable_all_cookies_btn: '0'
+css_class: 'js-modal-open button is-primary'
+html_attributes: 'data-modal="#sg-settings-modal-cookiesBar"'
+show_modal: '1'

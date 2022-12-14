@@ -1,0 +1,6 @@
+plugin:
+    name: 'Nerd Basic plugin'
+    description: 'Basic plugin for nerd pages'
+    author: Nerd
+    icon: oc-icon-certificate
+    homepage: ''
